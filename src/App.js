@@ -16,10 +16,10 @@ export default class App extends React.Component {
     render(){
         return (
             <ReflexContainer orientation="horizontal">
-                <ReflexElement className="header bg-primary" flex={0.1}>
+                <ReflexElement className="header bg-primary ms-1" flex={0.1}>
                     <div className="pane-content">
                         <label>
-                            Header (fixed)
+                            My Awesome Worksheet Crafter!
                         </label>
                     </div>
                 </ReflexElement>

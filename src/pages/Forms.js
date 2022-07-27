@@ -11,11 +11,10 @@ const Forms = () => {
         {name: 'triangle', image: Triangle}
     ]
     return (
-        <div>
+        <div className="mt-4">
             {
-                items.map((item, index) => <li key={index}>
-                    {item.name}
-                    <img src={item.image} width="50" height="50"/>
+                items.map((item, index) => <li key={index} draggable className="mt-2 ms-2 shadow w-25">
+                    <img src={item.image} alt={item.name} width="50" height="50"/>
                 </li>)
             }
         </div>

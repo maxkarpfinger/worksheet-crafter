@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 
 const PageSelector = (props) => {
   return (
-      <Form.Select aria-label="Default select example" onChange={e => props.handleSelect(e.target.value)}>
+      <Form.Select className="shadow w-50" width="50%" aria-label="Default select example" onChange={e => props.handleSelect(e.target.value)}>
           <option>Open this select menu</option>
           <option value="1">Forms</option>
           <option value="2">Tables</option>
