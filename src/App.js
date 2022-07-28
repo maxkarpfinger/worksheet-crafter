@@ -16,8 +16,8 @@ export default class App extends React.Component {
     render(){
         return (
             <ReflexContainer orientation="horizontal">
-                <ReflexElement className="header bg-primary ms-1" flex={0.1}>
-                    <div className="pane-content">
+                <ReflexElement className="header bg-primary" flex={0.1}>
+                    <div className="pane-content ms-1">
                         <label>
                             My Awesome Worksheet Crafter!
                         </label>
@@ -28,7 +28,7 @@ export default class App extends React.Component {
                         <ReflexElement className="left-pane bac bg-secondary">
                             <div className="pane-content">
                                 <div>
-                                    <h2>Elements</h2>
+                                    <h2 className="ms-1">Elements</h2>
                                 </div>
                                 <div>
                                     <PageSelector handleSelect={this.getPage}>
